@@ -8,9 +8,9 @@ The model improves contextual understanding using pairwise input representations
 
 Our implementation uses:
 
-- **Python 3.8+**
-- **PyTorch 1.10+**
-- **CUDA 11.x**
+- **Python 3.10**
+- **PyTorch 2.9.1**
+- **CUDA 12.6**
 
 Experiments are performed on a single **NVIDIA RTX A5000 GPU**.
 
