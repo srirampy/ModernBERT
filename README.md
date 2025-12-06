@@ -29,7 +29,7 @@ nohup bash ./train_ModernBERT_10_train_tune_tensorboard.sh > train_ModernBERT_10
 
 Run ModernBERT using **full training data**:
 
-'''bash
+```bash
 nohup bash ./train_ModernBERT_100_train_tune_tensorboard.sh > train_ModernBERT_100_train_tune_tensorboard.log 2>&1 &
 
 
