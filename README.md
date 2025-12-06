@@ -23,14 +23,13 @@ Run ModernBERT using **10% of the training data**:
 
 ```bash
 nohup bash ./train_ModernBERT_10_train_tune_tensorboard.sh > train_ModernBERT_10_train_tune_tensorboard.log 2>&1 &
-
----
+```
 2. #100% Training Setting
 
 Run ModernBERT using **full training data**:
 
 ```bash
 nohup bash ./train_ModernBERT_100_train_tune_tensorboard.sh > train_ModernBERT_100_train_tune_tensorboard.log 2>&1 &
-
+```
 
 
