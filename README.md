@@ -15,11 +15,19 @@ Our implementation uses:
 Experiments are performed on a single **NVIDIA RTX A5000 GPU**.
 
 ---
-## 🔥 10% Training Setting
+## 10% Training Setting
 
 Run ModernBERT using **10% of the training data**:
 
 ```bash
 nohup bash ./train_ModernBERT_10_train_tune_tensorboard.sh > train_ModernBERT_10_train_tune_tensorboard.log 2>&1 &
+
+## 100% Training Setting
+
+Run ModernBERT using **full training data**:
+
+'''bash
+nohup bash ./train_ModernBERT_100_train_tune_tensorboard.sh > train_ModernBERT_100_train_tune_tensorboard.log 2>&1 &
+
 
 
