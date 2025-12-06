@@ -32,4 +32,20 @@ Run ModernBERT using **full training data**:
 nohup bash ./train_ModernBERT_100_train_tune_tensorboard.sh > train_ModernBERT_100_train_tune_tensorboard.log 2>&1 &
 ```
 
+## Citation
+
+If you use **ModernBERT** in your research, please cite our paper:
+
+```bash
+@INPROCEEDINGS{11257919,
+author={Bhavani, Samineni and Kumar, T. Bharath and Manideep, N.V.S. and Sriram, M. Sai and Sathvik, K. Sai and Kommanti, Hima Bindu},
+booktitle={2025 International Conference on Emerging Techniques in Computational Intelligence (ICETCI)},
+title={ModernBERT for Zero-Shot Stance Detection: Pairwise Input Representations for Enhanced Performance},
+year={2025},
+pages={1-7},
+keywords={Training;Technological innovation;Smoothing methods;Computational modeling;Focusing;Predictive models;Transformers;Natural language processing;Computational intelligence;Context modeling;Zero-Shot Stance Detection;Transformer Models;Natural Language Processing;Label Smoothing},
+doi={10.1109/ICETCI67340.2025.11257919}
+}
+```
+
 
